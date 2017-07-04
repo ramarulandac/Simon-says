@@ -1,0 +1,56 @@
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <title>Simon Says</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="public/sweetalert.css">
+    <link rel="stylesheet" href="public/simonsays.css">
+
+  </head>
+  <body>
+    <div id="title" class="title active">
+      <h1> Simon says</h1>
+      <p>The memory game</p>
+      <div class="buttonplay">
+        <div class="play" onclick="startGame()">Let´s play!</div>
+      </div>
+    </div>
+
+    <div id="keyword" class="keyboard">
+      <div class="row">
+        <div id="81" class="key" data-key= "81">q</div>
+        <div id="87" class="key" data-key= "87">w</div>
+        <div id="69" class="key" data-key= "69">e</div>
+        <div id="82" class="key" data-key= "82">r</div>
+        <div id="84" class="key" data-key= "84">t</div>
+        <div id="89" class="key" data-key= "89">y</div>
+        <div id="85" class="key" data-key= "85">u</div>
+        <div id="73" class="key" data-key= "73">i</div>
+        <div id="79" class="key" data-key= "79">o</div>
+        <div id="80" class="key" data-key= "80">p</div>
+      </div>
+      <div class="row">
+        <div id="65" class="key" data-key= "65">a</div>
+        <div id="83" class="key" data-key= "83">s</div>
+        <div id="68" class="key" data-key= "68">d</div>
+        <div id="70" class="key" data-key= "70">f</div>
+        <div id="71" class="key" data-key= "71">g</div>
+        <div id="72" class="key" data-key= "72">h</div>
+        <div id="74" class="key" data-key= "74">j</div>
+        <div id="75" class="key" data-key= "75">k</div>
+        <div id="76" class="key" data-key= "76">l</div>
+      </div>
+      <div class="row last">
+        <div id="90" class="key" data-key= "90">z</div>
+        <div id="88" class="key" data-key= "88">x</div>
+        <div id="67" class="key" data-key= "67">c</div>
+        <div id="86" class="key" data-key= "86">v</div>
+        <div id="66" class="key" data-key= "66">b</div>
+        <div id="78" class="key" data-key= "78">n</div>
+        <div id="77" class="key" data-key= "77">m</div>
+      </div>
+    </div>
+  <script src="public/sweetalert.min.js"></script>
+  <script src="public/simonsays.js"></script>
+  </body>
+</html>
